@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | My Computing Journey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header with site title -->
+  <header>
+    <p class="site-title"><span>My Computing Journey</span></p>
+    <p class="tagline">One student’s route through the world of computing.</p>
+  </header>
+
+  <!-- Navigation: each page is a stop on the route -->
+    <nav aria-label="Main menu">
+    <ul>
+      <li>
+        <a href="index.html" aria-label="Home" title="Home" aria-current="page">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="about.html" aria-label="About Me" title="About Me">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="topics.html" aria-label="Computing Topics" title="Computing Topics">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5c3-1 6-1 8 1 2-2 5-2 8-1v14c-3-1-6-1-8 1-2-2-5-2-8-1zM12 6v14"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="contact.html" aria-label="Contact" title="Contact">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Welcome section with banner -->
+    <section class="hero">
+      <div>
+        <h1>Welcome aboard!</h1>
+        <p>My name is [Your Name], and I am a student taking CC 101. This website shows what I have learned about computing, from how it began to how it is used in healthcare, social science, and more.</p>
+        <p>Look around, learn about me, explore the topics, or send me a message.</p>
+        <a class="button" href="topics.html">Start with the topics</a>
+      </div>
+      <img src="images/banner.svg" alt="Banner showing a route line with stops leading to a laptop that displays code">
+    </section>
+
+    <!-- Three stops to visit -->
+    <section>
+      <h2>Where to next?</h2>
+      <div class="cards">
+        <article class="card"><h3>About Me</h3><p>My career path, skills, and goals.</p><a href="about.html">Visit this stop</a></article>
+        <article class="card"><h3>Computing Topics</h3><p>A summary of Lessons 1 to 6.</p><a href="topics.html">Visit this stop</a></article>
+        <article class="card"><h3>Contact</h3><p>Questions or feedback? Write to me.</p><a href="contact.html">Visit this stop</a></article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer with name and section -->
+  <footer>
+    <p>© 2026 [Your Full Name] | Section: [Your Section]</p>
+    <p>CC 101 Final Project, Group [No.]</p>
+  </footer>
+</body>
+</html>

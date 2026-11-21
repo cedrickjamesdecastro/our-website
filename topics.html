@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Computing Topics | My Computing Journey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header with site title -->
+  <header>
+    <p class="site-title"><span>My Computing Journey</span></p>
+    <p class="tagline">One student’s route through the world of computing.</p>
+  </header>
+
+  <!-- Navigation: icon buttons -->
+  <nav aria-label="Main menu">
+    <ul>
+      <li>
+        <a href="index.html" aria-label="Home" title="Home">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="about.html" aria-label="About Me" title="About Me">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="topics.html" aria-label="Computing Topics" title="Computing Topics" aria-current="page">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5c3-1 6-1 8 1 2-2 5-2 8-1v14c-3-1-6-1-8 1-2-2-5-2-8-1zM12 6v14"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="contact.html" aria-label="Contact" title="Contact">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Computing Topics</h1>
+
+    <!-- 1. Table of Lessons 1 to 6 -->
+    <section>
+      <h2>Lessons at a glance</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Lesson</th><th>Title</th><th>Short description</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>Biology and Healthcare</td><td>How computers help with DNA data, medical imaging, and health records.</td></tr>
+            <tr><td>2</td><td>Computing in Sociology and Social Sciences</td><td>Using data to study people, networks, and digital society.</td></tr>
+            <tr><td>3</td><td>Computing in Environmental Science and Sustainability</td><td>Climate modeling and mapping with GIS to protect the environment.</td></tr>
+            <tr><td>4</td><td>Computing in the Gaming Industry</td><td>The technologies that build and run modern video games.</td></tr>
+            <tr><td>5</td><td>Evolution of Computer and Devices</td><td>How computing tools grew from the abacus to smartphones.</td></tr>
+            <tr><td>6</td><td>Significant Milestones and Contributions</td><td>Key people and ideas that shaped computer science.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 2. Summary per lesson -->
+    <section>
+      <h2>Summary per lesson</h2>
+      <div class="stack">
+
+        <article class="card">
+          <h3>Lesson 1: Biology and Healthcare</h3>
+          <p>This lesson is about using computers to study living things, human health, and medical information. Bioinformatics analyzes DNA, genes, and proteins. Medical imaging, such as X-ray, CT scan, and MRI, helps doctors see inside the body. Electronic Health Records keep a patient’s history, test results, and medications in digital form.</p>
+        </article>
+
+        <article class="card">
+          <h3>Lesson 2: Computing in Sociology and Social Sciences</h3>
+          <p>This lesson is about using data and algorithms to study people and society. Social Network Analysis studies who is connected to whom, using ideas like nodes, ties, and centrality. Digital sociology studies how technology changes society and how society changes technology. Its focus areas are digital inequality, datification, digital identity, and surveillance and power.</p>
+        </article>
+
+        <article class="card">
+          <h3>Lesson 3: Computing in Environmental Science and Sustainability</h3>
+          <p>This lesson shows how computers help scientists protect the environment by processing large amounts of data. Climate modeling uses computers and math equations to study the Earth’s climate, such as temperature, rainfall, and greenhouse gas emissions. Climate simulation runs these models to see how the climate may change, for example if emissions increase. GIS (Geographic Information System) maps and analyzes information to show where things happen, such as areas at risk of flooding or forest that has been lost.</p>
+        </article>
+
+        <article class="card">
+          <h3>Lesson 4: Computing in the Gaming Industry</h3>
+          <p>This lesson explains how computer science, hardware, and software are used to design, build, and run video games. Graphics and physics engines, like Unreal Engine and Box2D, make visuals and movement look real. AI-driven behavior lets game characters react to the player, as with bots in Mobile Legends. Cloud gaming streams games from remote servers, and game analytics studies player data to improve the game. Training simulations, like flight simulators, use the same technology for practice outside games.</p>
+        </article>
+
+        <article class="card">
+          <h3>Lesson 5: Evolution of Computer and Devices</h3>
+          <p>This lesson follows computing tools as they grew from simple manual devices into faster and more powerful machines. It starts with the abacus and mechanical calculators like the Pascaline, then moves to ENIAC, the first programmable general-purpose electronic digital computer. The transistor and integrated circuits made computers smaller and better. Personal computers such as the Altair 8800, Apple II, and IBM PC brought computing to ordinary people, and smartphones are today’s result.</p>
+        </article>
+
+        <article class="card">
+          <h3>Lesson 6: Significant Milestones and Contributions</h3>
+          <p>This lesson looks at the ideas and people that built computer science. Charles Babbage designed the Analytical Engine, an early idea of a programmable computer. Ada Lovelace wrote the first algorithm for it, and Alan Turing helped break Enigma codes and developed the Turing Machine idea. Grace Hopper helped create the first compiler and COBOL, and Moore’s Law describes how chip transistors double about every two years.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 3. Timeline (from the Lesson 5 and Lesson 6 slides) -->
+   <section>
+      <h2>Timeline: from data to decisions</h2>
+      <p>This timeline shows the steps computers follow to help protect the environment, based on Lesson 3.</p>
+      <ol class="timeline">
+        <li><strong>Collect data:</strong> Computers process large amounts of environmental data, such as temperature, rainfall, wind, ocean conditions, and greenhouse gas emissions.</li>
+        <li><strong>Build a climate model:</strong> Computers and math equations represent the Earth’s climate system so scientists can study it.</li>
+        <li><strong>Run a climate simulation:</strong> The model is run to see how the climate may behave under different conditions.</li>
+        <li><strong>See the possible effects:</strong> If greenhouse gas emissions increase, temperature may rise, sea levels may rise, rainfall patterns may change, and extreme weather risks may increase.</li>
+        <li><strong>Map it with GIS:</strong> GIS shows where things are happening, such as areas that are vulnerable to flooding.</li>
+        <li><strong>Compare over time:</strong> Satellite images with GIS can compare forest areas over time and find places where forest cover has been lost.</li>
+        <li><strong>Make decisions:</strong> Scientists use these results to decide how to protect and manage natural resources.</li>
+      </ol>
+    </section>
+
+       <!-- 4. Labeled computer parts -->
+    <section>
+      <h2>Computer parts</h2>
+      <div class="parts">
+        <figure style="margin:0">
+          <img src="images/computer.svg" alt="Desktop computer with numbered labels: 1 monitor, 2 tower, 3 keyboard, 4 mouse">
+          <figcaption>The four main parts you can see. The numbers match the list.</figcaption>
+        </figure>
+        <dl>
+          <dt><strong>1. Monitor</strong></dt>
+          <dd>Shows the output, such as text, pictures, and video.</dd>
+          <dt><strong>2. Tower (system case)</strong></dt>
+          <dd>The box that holds the main parts of the computer inside.</dd>
+          <dt><strong>3. Keyboard</strong></dt>
+          <dd>An input device used to type letters, numbers, and commands.</dd>
+          <dt><strong>4. Mouse</strong></dt>
+          <dd>An input device used to point, click, and move the cursor.</dd>
+        </dl>
+      </div>
+
+      <br>
+
+          <!-- 5. Three security tips -->
+    <section>
+      <h2>Three security tips</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Use MFA</h3>
+          <p>Enable Multi-Factor Authentication (MFA) on your accounts for extra security. It requires an additional verification step, such as a code sent to your phone or an authentication app, making it harder for others to access your accounts even if they know your password.</p>
+        </article>
+        <article class="card">
+          <h3>Think before you click</h3>
+          <p>Fake emails and messages try to trick you into clicking bad links or opening harmful files. Check who sent it, look at the link, and do not open attachments you did not expect.</p>
+        </article>
+        <article class="card">
+          <h3>Update and back up</h3>
+          <p>Keep your system, apps, and antivirus up to date so known problems get fixed. Also copy important files to another place, so you do not lose them if something goes wrong.</p>
+        </article>
+      </div>
+    </section>
+
+    </section>
+  </main>
+
+  <!-- Footer with names and section -->
+  <footer>
+    <p>© 2026 [Group Members’ Names] | Section: [Your Section]</p>
+    <p>CC 101 Final Project, Group [No.]</p>
+  </footer>
+</body>
+</html>

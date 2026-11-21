@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | My Computing Journey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header with site title -->
+  <header>
+    <p class="site-title"><span>My Computing Journey</span></p>
+    <p class="tagline">One student’s route through the world of computing.</p>
+  </header>
+
+  <!-- Navigation: icon buttons -->
+  <nav aria-label="Main menu">
+    <ul>
+      <li>
+        <a href="index.html" aria-label="Home" title="Home">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="about.html" aria-label="About Me" title="About Me">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="topics.html" aria-label="Computing Topics" title="Computing Topics">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5c3-1 6-1 8 1 2-2 5-2 8-1v14c-3-1-6-1-8 1-2-2-5-2-8-1zM12 6v14"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="contact.html" aria-label="Contact" title="Contact" aria-current="page">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Contact</h1>
+    <p>Have a question or feedback about this website? Send us a message.</p>
+
+    <div class="contact-grid">
+
+      <!-- Contact form -->
+      <section class="panel">
+        <h2>Send a message</h2>
+        <form action="#" method="post">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="button" type="submit">Send message</button>
+        </form>
+      </section>
+
+      <!-- Side column: reliable websites and page links -->
+      <aside>
+        <section class="card">
+          <h2>Two reliable websites</h2>
+          <ul class="link-list">
+            <li>
+              <a href="https://www.computerhistory.org/" target="_blank" rel="noopener noreferrer">Computer History Museum</a>
+              <span>Stories and timelines about the history of computing.</span>
+            </li>
+            <li>
+              <a href="https://www.britannica.com/biography/Alan-Turing" target="_blank" rel="noopener noreferrer">Encyclopaedia Britannica: Alan Turing</a>
+              <span>A trusted encyclopedia article on a computing pioneer.</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>Back to the other pages</h2>
+          <ul class="link-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="topics.html">Computing Topics</a></li>
+          </ul>
+        </section>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Footer with names and section -->
+  <footer>
+    <p>© 2026 [Group Members’ Names] | Section: [Your Section]</p>
+    <p>CC 101 Final Project, Group [No.]</p>
+  </footer>
+</body>
+</html>
